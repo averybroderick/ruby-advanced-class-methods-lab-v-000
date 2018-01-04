@@ -44,11 +44,9 @@ class Song
 
     self.all.each do |song|
       song_names << song.name
-    end 
+    end
 
     song_names.sort
-
-    end
   end
 
 end
