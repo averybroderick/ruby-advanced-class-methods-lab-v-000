@@ -42,6 +42,7 @@ class Song
   def self.alphabetical
     self.all.sort do |song|
       song.name
+    end
   end
 
 end
