@@ -13,6 +13,7 @@ class Song
   def self.create
     self.new
     @@all << self
+    self
   end
 
 end
